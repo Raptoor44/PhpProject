@@ -23,30 +23,30 @@ public function __construct($absenceDate, $lateTime, $excused, $courseType, $cou
     $this->comment = $comment;
 }
 
-public function _getAbsenceDate(){
+public function getAbsenceDate(){
     return $this->absenceDate;
 
 }
-public function _getLateTime(){
+public function getLateTime(){
     return $this->lateTime;
     
 }
-public function _isExcused(){
+public function isExcused(){
     return $this->excused;
     
 }
-public function _getCourseType(){
+public function getCourseType(){
     return $this->courseType;
 }
-public function _getCourseDurationMinutes(){
+public function getCourseDurationMinutes(){
     return $this->courseDurationMinutes;
 }
-public function _getComment(){
+public function getComment(){
     return $this->comment;
     
 }
 
-public function _setComment($comment){
+public function setComment($comment){
      $this->comment = $comment;
 }
 
