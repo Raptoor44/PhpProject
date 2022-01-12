@@ -10,10 +10,10 @@ class StudentProfile{
     private $picture; //Array<byte>
     private $id; //long
 
-    public function __construct($nomval){
+    public function __construct($studentNumber,$dateofBirth,$repeating,$resigning,$picture,$id){
 
         $this->studentNumber = $studentNumber;
-        $this->dateofBirth = $dateofBirthr;
+        $this->dateofBirth = $dateofBirth;
         $this->repeating = $repeating;
         $this->resigning = $resigning;
         $this->picture = $picture;

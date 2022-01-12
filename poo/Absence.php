@@ -59,6 +59,9 @@ public function getId(){
 public function setComment($comment){
      $this->comment = $comment;
 }
+public function setStudent($student){
+    $this->student = $student;
+}
 
 }
 ?>

@@ -24,6 +24,10 @@ class Promotion{
         return $this->semesterSeparation;
         
     }
+
+    public function setSemesterSeparation($zoneDatTime){
+        $this->semesterSeparation = $zoneDatTime;
+   }
 }
 
 ?>
