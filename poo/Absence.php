@@ -9,10 +9,11 @@ private $excused; //boolean
 private $id; //long
 private $courseType; //String enum
 private $courseDurationMinutes; //int  enum
-private $comment ; // Comment
+private $comment; // Comment
+private $student; //Student
 
 
-public function __construct($absenceDate, $lateTime, $excused, $courseType, $courseDurationMinutes,$id,$comment){
+public function __construct($absenceDate, $lateTime, $excused, $courseType, $courseDurationMinutes,$id,$comment,$student){
 
     $this->absenceDate = $absenceDate;
     $this->lateTime = $lateTime;
@@ -21,6 +22,7 @@ public function __construct($absenceDate, $lateTime, $excused, $courseType, $cou
     $this->courseDurationMinutes = $courseDurationMinutes;
     $this->id = $id;
     $this->comment = $comment;
+    $this->student = $student;
 }
 
 public function getAbsenceDate(){
@@ -43,6 +45,10 @@ public function getCourseDurationMinutes(){
 }
 public function getComment(){
     return $this->comment;
+    
+}
+public function getStudent(){
+    return $this->student;
     
 }
 
