@@ -13,10 +13,25 @@
 
         }
 
+        public function getStartTime(){
+            return $this->startTime;
+            
+        }
+        public function getEndTime(){
+            return $this->endTime;
+            
+        }
+        public function getReason(){
+            return $this->reason;
+            
+        }
+        public function getId(){
+            return $this->id;
+            
+        }
+
         public function proofsCount($CertificateProof){
            return $CertificateProof->getContent()->ob_get_length;
         }
     } 
-
-
 ?>

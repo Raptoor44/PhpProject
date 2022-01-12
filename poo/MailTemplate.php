@@ -13,6 +13,22 @@ class MailTemplate{
         $this->bodyEndContent=$bodyEndContent;
 
     }
+    public function getId(){
+        return $this->id;
+        
+    }
+    public function getSubjectContent(){
+        return $this->subjectContent;
+        
+    }
+    public function getBodyStartContent(){
+        return $this->bodyStartContent;
+        
+    }
+    public function getBodyEndContent(){
+        return $this->bodyEndContent;
+        
+    }
 
 
 

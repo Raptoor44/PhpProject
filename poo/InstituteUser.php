@@ -17,6 +17,26 @@ class InstituteUser{
         $this->isAdmin=$isAdmin;
         $this->id=$id;
     }
+    public function getId(){
+        return $this->id;
+        
+    }
+    public function getUsername(){
+        return $this->username;
+        
+    }
+    public function getlastname(){
+        return $this->lastname;
+        
+    }
+    public function getFirstname(){
+        return $this->firstname;
+        
+    }
+    public function getEmail(){
+        return $this->email;
+        
+    }
 }
 
 

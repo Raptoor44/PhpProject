@@ -11,6 +11,19 @@ class Formation{
         $this->id = $id;
         $this->scholarYear = $scholarYear;
     }
+
+    public function getId(){
+        return $this->id;
+        
+    }
+    public function getName(){
+        return $this->name;
+        
+    }
+    public function getScholarYear(){
+        return $this->scholarYear;
+        
+    }
 }
 
 ?>

@@ -15,6 +15,24 @@ class Comment{
         $this->$id = $id;
 
     }
+    public function getId(){
+        return $this->id;
+        
+    }
+    public function getEditTime(){
+        return $this->editTime;
+        
+    }
+    public function getCreationTime(){
+        return $this->creationTime;
+        
+    }
+    public function getContent(){
+        return $this->content;
+        
+    }
+
+
 }
 
 
