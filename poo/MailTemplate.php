@@ -6,7 +6,11 @@ class MailTemplate{
     private $bodyStartContent;//String
     private $bodyEndContent; //string
 
-    public function __construct($nomval){
+    public function __construct($id,$subjectContent,$bodyStartContent,$bodyEndContent){
+        $this->id=$id;
+        $this->subjectContent=$subjectContent;
+        $this->bodyStartContent=$bodyStartContent;
+        $this->bodyEndContent=$bodyEndContent;
 
     }
 
