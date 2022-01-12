@@ -14,8 +14,7 @@
         }
 
         public function proofsCount($CertificateProof){
-           return $CertificateProof->getContent();
-
+           return $CertificateProof->getContent()->ob_get_length;
         }
     } 
 
