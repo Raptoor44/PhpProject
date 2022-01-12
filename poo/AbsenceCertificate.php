@@ -5,12 +5,16 @@
         private $reason; //string
         private $id; //long
 
-        public function __construct($nomval){
+        public function __construct($startTime,$endTime,$reason,$id){
+             $this->startTime = $startTime;
+             $this->endTime = $endTime;
+             $this->reason = $reason;
+             $this->id = $id;
 
         }
 
         public function proofsCount(){
-
+            
         }
     } 
 

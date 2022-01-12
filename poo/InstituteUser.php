@@ -9,8 +9,13 @@ class InstituteUser{
     private $isAdmin; //boolean
     private $id; //long
 
-    public function __construct($nomval){
-
+    public function __construct($username,$lastname,$firstname,$email,$isAdmin,$id){
+        $this->username=$username;
+        $this->lastname=$lastname;
+        $this->firstname=$firstname;
+        $this->email=$firstname;
+        $this->isAdmin=$isAdmin;
+        $this->id=$id;
     }
 }
 
