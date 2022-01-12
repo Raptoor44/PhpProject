@@ -1,0 +1,4 @@
+Approche du projet PHP :
+
+Utilisation d’une base de données mysql pour la sauvegarde.
+La base de données mysql a été choisie car il est facile d'effectuer des requêtes sql à partir de php (php intègre des bibliothèques spécialisées dans l’envoie de requête de requêtes sql). On pourra attribuer des attributs d’utilisateur (leurs groupes pour leurs donner des droits d’accès). 
