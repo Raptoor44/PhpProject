@@ -13,8 +13,9 @@
 
         }
 
-        public function proofsCount(){
-            
+        public function proofsCount($CertificateProof){
+           return $CertificateProof->getContent();
+
         }
     } 
 

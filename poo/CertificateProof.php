@@ -13,6 +13,10 @@ class CertificateProof{
 
     }
 
+    public function getContent(){
+        return $this->content;
+    }
+
 }
 
 ?>
