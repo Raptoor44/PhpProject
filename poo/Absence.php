@@ -7,8 +7,8 @@ private $absenceDate; //Date
 private $lateTime; //int
 private $excused; //boolean
 private $id; //long
-private $courseType; //String
-private $courseDurationMinutes; //int
+private $courseType; //String enum
+private $courseDurationMinutes; //int  enum
 private $comment ; // Comment
 
 
